@@ -19,7 +19,7 @@ All plugins are installed using Package Manager. `⌘`+`Shift`+`P` and type `ins
 - [ColorHighlighter](https://github.com/Monnoroch/ColorHighlighter) - Previews color values by underlaying the selected hex codes in different styles.
 - [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements/tree/st3) - Provides enhancements to the operations on Sidebar of Files and Folders.
 - [SublimeCodeIntel](https://sublime.wbond.net/packages/SublimeCodeIntel) - Full-featured code intelligence and smart autocomplete engine.
-- [Trimmer](https://github.com/jonlabelle/Trimmer) - A tool for cleaning up whitespace..
+- [Trimmer](https://github.com/jonlabelle/Trimmer) - A tool for cleaning up whitespace.
 
 
 ### HTML, CSS & JS
@@ -64,3 +64,5 @@ Then you can open files in Sublime Text from the command line with:
     subl file.txt
 
 Replacing `file.text` with the name of the file or folder you wish to open in Sublime Text.
+
+All this is based on a Gist (https://gist.github.com/ijy/7399688).
