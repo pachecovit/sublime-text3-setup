@@ -40,7 +40,19 @@ All plugins are installed using Package Manager. `⌘`+`Shift`+`P` and type `ins
 Accessible via: `SublimeText` &rarr; `Preferences` &rarr; `Settings – User`, or with `⌘`+`,'.'
 
 ```json
-
+    {
+        "ignored_packages":
+        [
+            "Vintage"
+        ],
+        "color_scheme": "Packages/Theme - Afterglow/Afterglow-monokai.tmTheme",
+        "tab_size": 4,
+        "tabs_small": true,
+        "theme": "Afterglow-green.sublime-theme",
+        "translate_tabs_to_spaces": true,
+        "default_encoding": "UTF-8",
+        "detect_indentation": true
+    }
 ```
 
 
