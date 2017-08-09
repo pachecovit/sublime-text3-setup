@@ -46,7 +46,7 @@ Accessible via: `SublimeText` &rarr; `Preferences` &rarr; `Settings – User`, o
             "Vintage"
         ],
         "color_scheme": "Packages/Theme - Afterglow/Afterglow-monokai.tmTheme",
-        "tab_size": 4,
+        "tab_size": 2,
         "tabs_small": true,
         "theme": "Afterglow-green.sublime-theme",
         "translate_tabs_to_spaces": true,
