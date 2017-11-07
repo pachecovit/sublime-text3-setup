@@ -79,7 +79,7 @@ Replacing `file.text` with the name of the file or folder you wish to open in Su
 
 ## BONUS:
 
-If you want to set layout with 2 columns, go to ```Menu > Preferences > Browse Packages...```, find ```Packages/User```. Create file named default_layout.py (or want name you want) and add the following:
+If you want to set layout with 2 columns, go to ```Menu > Preferences > Browse Packages...```, find ```Packages/User``` and create a file named default_layout.py (or what name you want) and add the following:
 
 ```
     import sublime
