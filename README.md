@@ -77,4 +77,17 @@ Then you can open files in Sublime Text from the command line with:
 
 Replacing `file.text` with the name of the file or folder you wish to open in Sublime Text.
 
-All this is based on a Gist (https://gist.github.com/ijy/7399688).
+## BONUS:
+
+If you want to set layout with 2 columns, go to ```Menu > Preferences > Browse Packages...```, find ```Packages/User```. Create file named default_layout.py (or want name you want) and add the following:
+
+```
+    import sublime
+
+    def plugin_loaded():
+    sublime.active_window().run_command("set_layout", {
+        "cols": [0.0, 0.5, 1.0],
+        "rows": [0.0, 1.0],
+        "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    })
+```
